@@ -92,7 +92,7 @@ backHome:"Вернуться на главную",
 
 cookiesText:"🍪 Этот сайт использует cookies для улучшения работы.",
 acceptCookies:"Принять",
-learnMore:"Подробнее,
+learnMore:"Подробнее",
 
 home:"Главная",
 perfumes:"Парфюм",
