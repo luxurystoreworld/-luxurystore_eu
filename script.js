@@ -251,6 +251,7 @@ if (cookieBanner && acceptCookies) {
 // ===============================
 
 const favoritesContainer = document.getElementById("favoritesContainer"); 
+alert("favorite-1 = " + localStorage.getItem("favorite-1"));
 const perfumeImages = [
     "hero.jpg",
     "chance.jpg",
