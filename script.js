@@ -93,6 +93,7 @@ if(!translations[lang]) return;
 
 set("home", translations[lang].home);
 set("perfumes", translations[lang].perfumes);
+set("favoritesLink", translations[lang].favorites);
 set("aboutLink", translations[lang].about);
 set("contactLink", translations[lang].contact);
 
