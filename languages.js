@@ -68,6 +68,7 @@ privacySecurityTitle:"Амният",
 privacySecurityText:"Мо маълумоти шахсии шуморо намефурӯшем ва ба шахсони сеюм намедиҳем.",
 
 backHome:"Бозгашт ба саҳифаи асосӣ",
+
 cookiesText:"🍪 Ин сомона барои беҳтар кардани таҷрибаи шумо cookie-ҳоро истифода мебарад.",
 acceptCookies:"Қабул кардан",
 learnMore:"Муфассал"
@@ -87,6 +88,7 @@ privacySecurityTitle:"Безопасность",
 privacySecurityText:"Мы не продаем и не передаем ваши персональные данные третьим лицам.",
 
 backHome:"Вернуться на главную",
+
 cookiesText:"🍪 Этот сайт использует cookies для улучшения работы.",
 acceptCookies:"Принять",
 learnMore:"Подробнее"
@@ -161,6 +163,7 @@ privacySecurityTitle:"Security",
 privacySecurityText:"We never sell or share your personal information with third parties.",
 
 backHome:"Back to Home",
+
 cookiesText:"🍪 This website uses cookies to improve your experience.",
 acceptCookies:"Accept",
 learnMore:"Learn More"
@@ -235,6 +238,7 @@ privacySecurityTitle:"Sicherheit",
 privacySecurityText:"Wir verkaufen oder geben Ihre personenbezogenen Daten niemals an Dritte weiter.",
 
 backHome:"Zur Startseite",
+
 cookiesText:"🍪 Diese Website verwendet Cookies, um Ihre Erfahrung zu verbessern.",
 acceptCookies:"Akzeptieren",
 learnMore:"Mehr erfahren"
