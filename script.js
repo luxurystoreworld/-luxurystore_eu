@@ -276,7 +276,7 @@ if (favoritesContainer) {
 
     if (html === "") {
 
-        html = "<h2>No favorites yet ❤️</h2>";
+        html = "<h2>No favorites yet </h2>";
 
     }
 
