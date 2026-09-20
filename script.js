@@ -279,18 +279,25 @@ if (favoritesContainer) {
 
         if (localStorage.getItem("favorite-" + i) === "true") {
 
-            html += `
-            <div class="product">
-                <img src="images/${perfumeImages[i-1]}" alt="Perfume ${i}">
-                <h3>${translations[localStorage.getItem("language") || "tj"]["p"+i]}</h3>
+           html += `
+<div class="product">
+    <img src="images/${perfumeImages[i-1]}" alt="Perfume ${i}">
 
-                <a href="https://instagram.com/luxurystore_eu"
-                   target="_blank"
-                   class="btn">
-                   ${translations[localStorage.getItem("language") || "tj"].buy}
-                </a>
-            </div>
-            `;
+    <div class="favorite active remove-favorite" data-id="${i}">
+        ♥
+    </div>
+
+    <h2>${perfumeImages[i-1].replace(".jpg","").replace(/-/g," ")}</h2>
+
+    <p>${translations[localStorage.getItem("language") || "tj"]["p"+i]}</p>
+
+    <a href="https://instagram.com/luxurystore_eu"
+       target="_blank"
+       class="btn">
+       ${translations[localStorage.getItem("language") || "tj"].buy}
+    </a>
+</div>
+`;
 
         }
 
@@ -304,4 +311,21 @@ html = `<h2>${translations[lang].noFavorites}</h2>`;
     }
 
     favoritesContainer.innerHTML = html;
+   document.querySelectorAll(".remove-favorite").forEach(item => {
+
+    item.addEventListener("click", () => {
+
+        localStorage.removeItem("favorite-" + item.dataset.id);
+
+        item.closest(".product").remove();
+
+        if (document.querySelectorAll(".product").length === 0) {
+            const lang = localStorage.getItem("language") || "tj";
+            favoritesContainer.innerHTML =
+                `<h2>${translations[lang].noFavorites}</h2>`;
+        }
+
+    });
+
+});
 }
