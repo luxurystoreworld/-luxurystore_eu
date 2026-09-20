@@ -214,3 +214,25 @@ favorites.forEach(item => {
     });
 
 });
+// ===============================
+// COOKIES
+// ===============================
+
+const cookieBanner = document.getElementById("cookieBanner");
+const acceptCookies = document.getElementById("acceptCookies");
+
+if (cookieBanner && acceptCookies) {
+
+    if (!localStorage.getItem("cookiesAccepted")) {
+        cookieBanner.style.display = "flex";
+    }
+
+    acceptCookies.addEventListener("click", () => {
+
+        localStorage.setItem("cookiesAccepted", "true");
+
+        cookieBanner.style.display = "none";
+
+    });
+
+}
