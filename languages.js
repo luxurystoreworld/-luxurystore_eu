@@ -36,7 +36,7 @@ copyright:"© 2025 LUXURY STORE. Ҳамаи ҳуқуқҳо ҳифз шудаан
 
 productsTitle:"Атрҳои мо",
 productsText:"Танҳо атрҳои аслии брендҳои машҳури ҷаҳон.",
-favoritesTitle:" Дӯстдоштаҳо",
+favoritesTitle:"Дӯстдоштаҳо",
 favoritesText:"Атрҳои дӯстдоштаи шумо",
 noFavorites:"Ҳоло дӯстдошта нест ",
 
@@ -100,7 +100,7 @@ learnMore:"Подробнее",
 
 home:"Главная",
 perfumes:"Парфюм",
-favorites:" Избранное",
+favorites:"Избранное",
 about:"О нас",
 contact:"Контакты",
 
@@ -132,7 +132,7 @@ copyright:"© 2025 LUXURY STORE. Все права защищены.",
 
 productsTitle:"Наши духи",
 productsText:"Только оригинальная парфюмерия мировых брендов.",
-favoritesTitle:" Избранное",
+favoritesTitle:"Избранное",
 favoritesText:"Ваши любимые духи",
 noFavorites:"Пока нет избранных ",
 
@@ -180,7 +180,7 @@ learnMore:"Learn More",
 
 home:"Home",
 perfumes:"Perfumes",
-favorites:" Favorites",
+favorites:"Favorites",
 about:"About Us",
 contact:"Contact",
 
@@ -212,7 +212,7 @@ copyright:"© 2025 LUXURY STORE. All Rights Reserved.",
 
 productsTitle:"Our Perfumes",
 productsText:"Only original perfumes from the world's leading brands.",
-favoritesTitle:" Favorites",
+favoritesTitle:"Favorites",
 favoritesText:"Your favorite perfumes",
 noFavorites:"No favorites yet ",
 
@@ -260,7 +260,7 @@ learnMore:"Mehr erfahren",
 
 home:"Startseite",
 perfumes:"Parfüms",
-favorites:" Favoriten",
+favorites:"Favoriten",
 about:"Über uns",
 contact:"Kontakt",
 
@@ -292,7 +292,7 @@ copyright:"© 2025 LUXURY STORE. Alle Rechte vorbehalten.",
 
 productsTitle:"Unsere Parfüms",
 productsText:"Nur Originalparfüms der bekanntesten Marken der Welt.",
-favoritesTitle:" Favoriten",
+favoritesTitle:"Favoriten",
 favoritesText:"Ihre Lieblingsparfums",
 noFavorites:"Noch keine Favoriten ",
 
