@@ -276,7 +276,8 @@ if (favoritesContainer) {
 
     if (html === "") {
 
-        html = "<h2>No favorites yet </h2>";
+        const lang = localStorage.getItem("language") || "tj";
+html = `<h2>${translations[lang].noFavorites}</h2>`;
 
     }
 
