@@ -55,7 +55,8 @@ p16:"Занона",
 p17:"Занона",
 p18:"Занона",
 
-buy:"Пурсидани нарх",privacyTitle:"Сиёсати махфият",
+buy:"Пурсидани нарх",
+privacyTitle:"Сиёсати махфият",
 privacyText:"Махфияти шумо барои мо муҳим аст.",
 
 privacyInfoTitle:"Маълумот",
@@ -91,7 +92,7 @@ backHome:"Вернуться на главную",
 
 cookiesText:"🍪 Этот сайт использует cookies для улучшения работы.",
 acceptCookies:"Принять",
-learnMore:"Подробнее"
+learnMore:"Подробнее,
 home:"Главная",
 perfumes:"Парфюм",
 about:"О нас",
@@ -166,7 +167,7 @@ backHome:"Back to Home",
 
 cookiesText:"🍪 This website uses cookies to improve your experience.",
 acceptCookies:"Accept",
-learnMore:"Learn More"
+learnMore:"Learn More",
 home:"Home",
 perfumes:"Perfumes",
 about:"About Us",
@@ -241,7 +242,7 @@ backHome:"Zur Startseite",
 
 cookiesText:"🍪 Diese Website verwendet Cookies, um Ihre Erfahrung zu verbessern.",
 acceptCookies:"Akzeptieren",
-learnMore:"Mehr erfahren"
+learnMore:"Mehr erfahren",
 home:"Startseite",
 perfumes:"Parfüms",
 about:"Über uns",
