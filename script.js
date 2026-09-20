@@ -156,7 +156,6 @@ set("acceptCookiesText", translations[lang].acceptCookies);
 set("learnMore", translations[lang].learnMore);
 
 // Buy buttons
-// Buy buttons
 
 document.querySelectorAll("[id^='buy']").forEach(btn => {
 
