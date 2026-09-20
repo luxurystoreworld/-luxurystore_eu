@@ -155,7 +155,10 @@ set("backHome", translations[lang].backHome);
 set("cookiesText", translations[lang].cookiesText);
 set("acceptCookiesText", translations[lang].acceptCookies);
 set("learnMore", translations[lang].learnMore);
-
+// Favorites page
+set("favoritesTitle", translations[lang].favoritesTitle);
+set("favoritesText", translations[lang].favoritesText);
+set("backProducts", "← " + translations[lang].perfumes);
 // Buy buttons
 
 document.querySelectorAll("[id^='buy']").forEach(btn => {
