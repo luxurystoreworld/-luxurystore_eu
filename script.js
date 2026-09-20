@@ -250,8 +250,27 @@ if (cookieBanner && acceptCookies) {
 // FAVORITES PAGE
 // ===============================
 
-const favoritesContainer = document.getElementById("favoritesContainer");
-
+const favoritesContainer = document.getElementById("favoritesContainer"); 
+const perfumeImages = [
+    "hero.jpg",
+    "chance.jpg",
+    "coco-mademoiselle.jpg",
+    "donna-born-in-roma.jpg",
+    "good-girl.jpg",
+    "idole.jpg",
+    "jadore.jpg",
+    "la-belle.jpg",
+    "la-vie-est-belle.jpg",
+    "libre.jpg",
+    "linterdit.jpg",
+    "miss-dior.jpg",
+    "mon-paris.jpg",
+    "paradoxe.jpg",
+    "poison.jpg",
+    "scandal.jpg",
+    "si.jpg",
+    "black-opium.jpg"
+];
 if (favoritesContainer) {
 
     let html = "";
@@ -262,7 +281,7 @@ if (favoritesContainer) {
 
             html += `
             <div class="product">
-                <img src="images/p${i}.jpg" alt="Perfume ${i}">
+                <img src="images/${perfumeImages[i-1]}" alt="Perfume ${i}">
                 <h3>${translations[localStorage.getItem("language") || "tj"]["p"+i]}</h3>
 
                 <a href="https://instagram.com/luxurystore_eu"
