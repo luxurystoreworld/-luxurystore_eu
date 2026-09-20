@@ -274,7 +274,7 @@ const perfumeImages = [
 if (favoritesContainer) {
 
     let html = "";
-
+const lang = localStorage.getItem("language") || "tj";
     for (let i = 1; i <= 18; i++) {
 
         if (localStorage.getItem("favorite-" + i) === "true") {
@@ -289,12 +289,12 @@ if (favoritesContainer) {
 
     <h2>${perfumeImages[i-1].replace(".jpg","").replace(/-/g," ")}</h2>
 
-    <p>${translations[localStorage.getItem("language") || "tj"]["p"+i]}</p>
+    <p>${translations[lang]["p" + i]}</p>
 
     <a href="https://instagram.com/luxurystore_eu"
        target="_blank"
        class="btn">
-       ${translations[localStorage.getItem("language") || "tj"].buy}
+       ${translations[lang].buy}
     </a>
 </div>
 `;
@@ -315,15 +315,23 @@ html = `<h2>${translations[lang].noFavorites}</h2>`;
 
     item.addEventListener("click", () => {
 
+        const card = item.closest(".product");
+
         localStorage.removeItem("favorite-" + item.dataset.id);
 
-        item.closest(".product").remove();
+        card.classList.add("remove-animation");
 
-        if (document.querySelectorAll(".product").length === 0) {
-            const lang = localStorage.getItem("language") || "tj";
-            favoritesContainer.innerHTML =
-                `<h2>${translations[lang].noFavorites}</h2>`;
-        }
+        setTimeout(() => {
+
+            card.remove();
+
+            if (document.querySelectorAll(".product").length === 0) {
+                const lang = localStorage.getItem("language") || "tj";
+                favoritesContainer.innerHTML =
+                    `<h2>${translations[lang].noFavorites}</h2>`;
+            }
+
+        }, 350);
 
     });
 
