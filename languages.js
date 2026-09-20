@@ -4,6 +4,7 @@ tj:{
 
 home:"Асосӣ",
 perfumes:"Атрҳо",
+favorites:"❤️ Дӯстдоштаҳо",
 about:"Дар бораи мо",
 contact:"Тамос",
 
@@ -96,6 +97,7 @@ learnMore:"Подробнее",
 
 home:"Главная",
 perfumes:"Парфюм",
+favorites:"❤️ Избранное",
 about:"О нас",
 contact:"Контакты",
 
@@ -172,6 +174,7 @@ learnMore:"Learn More",
 
 home:"Home",
 perfumes:"Perfumes",
+favorites:"❤️ Favorites",
 about:"About Us",
 contact:"Contact",
 
@@ -248,6 +251,7 @@ learnMore:"Mehr erfahren",
 
 home:"Startseite",
 perfumes:"Parfüms",
+favorites:"❤️ Favoriten",
 about:"Über uns",
 contact:"Kontakt",
 
