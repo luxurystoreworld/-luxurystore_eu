@@ -243,3 +243,43 @@ if (cookieBanner && acceptCookies) {
     });
 
 }
+// ===============================
+// FAVORITES PAGE
+// ===============================
+
+const favoritesContainer = document.getElementById("favoritesContainer");
+
+if (favoritesContainer) {
+
+    let html = "";
+
+    for (let i = 1; i <= 18; i++) {
+
+        if (localStorage.getItem("favorite-" + i) === "true") {
+
+            html += `
+            <div class="product">
+                <img src="images/p${i}.jpg" alt="Perfume ${i}">
+                <h3>${translations[localStorage.getItem("language") || "tj"]["p"+i]}</h3>
+
+                <a href="https://instagram.com/luxurystore_eu"
+                   target="_blank"
+                   class="btn">
+                   ${translations[localStorage.getItem("language") || "tj"].buy}
+                </a>
+            </div>
+            `;
+
+        }
+
+    }
+
+    if (html === "") {
+
+        html = "<h2>No favorites yet ❤️</h2>";
+
+    }
+
+    favoritesContainer.innerHTML = html;
+
+}
