@@ -675,3 +675,63 @@ font-size:26px;
 }
 
 }
+/* ===================================
+COOKIES BANNER
+=================================== */
+
+.cookie-banner{
+
+position:fixed;
+left:20px;
+right:20px;
+bottom:20px;
+
+background:#171717;
+border:1px solid rgba(212,175,55,.25);
+border-radius:18px;
+
+padding:20px;
+
+display:none;
+justify-content:space-between;
+align-items:center;
+gap:20px;
+
+z-index:2000;
+
+box-shadow:0 15px 35px rgba(0,0,0,.4);
+
+}
+
+.cookie-text{
+
+font-size:16px;
+color:#d0d0d0;
+
+}
+
+.cookie-buttons{
+
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+
+}
+
+@media(max-width:768px){
+
+.cookie-banner{
+
+flex-direction:column;
+text-align:center;
+
+}
+
+.cookie-buttons{
+
+width:100%;
+justify-content:center;
+
+}
+
+}
