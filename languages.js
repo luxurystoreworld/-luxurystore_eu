@@ -36,6 +36,9 @@ copyright:"© 2025 LUXURY STORE. Ҳамаи ҳуқуқҳо ҳифз шудаан
 
 productsTitle:"Атрҳои мо",
 productsText:"Танҳо атрҳои аслии брендҳои машҳури ҷаҳон.",
+favoritesTitle:"❤️ Дӯстдоштаҳо",
+favoritesText:"Атрҳои дӯстдоштаи шумо",
+noFavorites:"Ҳоло дӯстдошта нест ❤️",
 
 p1:"Мардона",
 p2:"Занона",
@@ -129,6 +132,9 @@ copyright:"© 2025 LUXURY STORE. Все права защищены.",
 
 productsTitle:"Наши духи",
 productsText:"Только оригинальная парфюмерия мировых брендов.",
+favoritesTitle:"❤️ Избранное",
+favoritesText:"Ваши любимые духи",
+noFavorites:"Пока нет избранных ❤️",
 
 p1:"Мужской",
 p2:"Женский",
@@ -206,6 +212,9 @@ copyright:"© 2025 LUXURY STORE. All Rights Reserved.",
 
 productsTitle:"Our Perfumes",
 productsText:"Only original perfumes from the world's leading brands.",
+favoritesTitle:"❤️ Favorites",
+favoritesText:"Your favorite perfumes",
+noFavorites:"No favorites yet ❤️",
 
 p1:"Men",
 p2:"Women",
@@ -283,6 +292,9 @@ copyright:"© 2025 LUXURY STORE. Alle Rechte vorbehalten.",
 
 productsTitle:"Unsere Parfüms",
 productsText:"Nur Originalparfüms der bekanntesten Marken der Welt.",
+favoritesTitle:"❤️ Favoriten",
+favoritesText:"Ihre Lieblingsparfums",
+noFavorites:"Noch keine Favoriten ❤️",
 
 p1:"Herren",
 p2:"Damen",
