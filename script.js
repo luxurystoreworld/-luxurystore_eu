@@ -183,3 +183,34 @@ changeLanguage(this.value);
 // ===============================
 // END
 // ===============================
+// ===============================
+// FAVORITES
+// ===============================
+
+const favorites = document.querySelectorAll(".favorite");
+
+favorites.forEach(item => {
+
+    const id = item.dataset.id;
+
+    // Загружаем сохранённое состояние
+    if (localStorage.getItem("favorite-" + id) === "true") {
+        item.classList.add("active");
+        item.textContent = "♥";
+    }
+
+    item.addEventListener("click", () => {
+
+        item.classList.toggle("active");
+
+        if (item.classList.contains("active")) {
+            item.textContent = "♥";
+            localStorage.setItem("favorite-" + id, "true");
+        } else {
+            item.textContent = "♡";
+            localStorage.removeItem("favorite-" + id);
+        }
+
+    });
+
+});
