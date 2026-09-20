@@ -306,5 +306,7 @@ html = `<h2>${translations[lang].noFavorites}</h2>`;
     }
 
     favoritesContainer.innerHTML = html;
-
+if (favoritesContainer) {
+    alert("Favorites page loaded");
+}
 }
