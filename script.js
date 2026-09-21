@@ -337,3 +337,8 @@ html = `<h2>${translations[lang].noFavorites}</h2>`;
 
 });
 }
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js")
+        .then(() => console.log("Service Worker зарегистрирован"))
+        .catch(err => console.log("Ошибка:", err));
+}
