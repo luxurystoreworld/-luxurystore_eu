@@ -806,6 +806,9 @@ background:#25D366;
 display:flex;
 justify-content:center;
 align-items:center;
+text-decoration:none;
+color:#fff;
+font-size:36px;
 box-shadow:0 10px 30px rgba(0,0,0,.35);
 z-index:9999;
 transition:.3s;
@@ -813,9 +816,4 @@ transition:.3s;
 
 .whatsapp-button:hover{
 transform:scale(1.1);
-}
-
-.whatsapp-button img{
-width:36px;
-height:36px;
 }
