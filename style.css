@@ -795,3 +795,27 @@ font-size:16px;
     border-radius:20px;
     box-shadow:0 15px 40px rgba(0,0,0,.45);
 }
+.whatsapp-button{
+position:fixed;
+bottom:30px;
+right:30px;
+width:65px;
+height:65px;
+border-radius:50%;
+background:#25D366;
+display:flex;
+justify-content:center;
+align-items:center;
+box-shadow:0 10px 30px rgba(0,0,0,.35);
+z-index:9999;
+transition:.3s;
+}
+
+.whatsapp-button:hover{
+transform:scale(1.1);
+}
+
+.whatsapp-button img{
+width:36px;
+height:36px;
+}
