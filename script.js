@@ -342,3 +342,38 @@ if ("serviceWorker" in navigator) {
         .then(() => console.log("Service Worker зарегистрирован"))
         .catch(err => console.log("Ошибка:", err));
 }
+let deferredPrompt;
+
+window.addEventListener("beforeinstallprompt", (e) => {
+
+    e.preventDefault();
+
+    deferredPrompt = e;
+
+    const banner = document.getElementById("installBanner");
+
+    if (banner) {
+        banner.style.display = "block";
+    }
+
+});
+
+const installBtn = document.getElementById("installBtn");
+
+if (installBtn) {
+
+    installBtn.addEventListener("click", async () => {
+
+        if (!deferredPrompt) return;
+
+        deferredPrompt.prompt();
+
+        await deferredPrompt.userChoice;
+
+        deferredPrompt = null;
+
+        document.getElementById("installBanner").style.display = "none";
+
+    });
+
+}
