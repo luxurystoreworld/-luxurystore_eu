@@ -123,16 +123,23 @@ user-select:none;
 /* ===================================
 HERO
 =================================== */
-
 .hero{
 position:relative;
 display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
-padding:120px 8%;
 min-height:85vh;
+padding:120px 8%;
 overflow:hidden;
+
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url("images/hero.jpg");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 }
 
 .hero-content{
@@ -145,14 +152,14 @@ max-width:900px;
 font-size:64px;
 letter-spacing:3px;
 margin-bottom:20px;
+color:#fff;
 }
 
 .hero p{
 font-size:22px;
-color:#d0d0d0;
+color:#f2f2f2;
 margin-bottom:45px;
 }
-
 .hero-buttons{
 display:flex;
 justify-content:center;
