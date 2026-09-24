@@ -796,24 +796,23 @@ font-size:16px;
     box-shadow:0 15px 40px rgba(0,0,0,.45);
 }
 .whatsapp-button{
-position:fixed;
-bottom:30px;
-right:30px;
-width:65px;
-height:65px;
-border-radius:50%;
-background:#25D366;
-display:flex;
-justify-content:center;
-align-items:center;
-text-decoration:none;
-color:#fff;
-font-size:36px;
-box-shadow:0 10px 30px rgba(0,0,0,.35);
-z-index:9999;
-transition:.3s;
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    width:65px;
+    height:65px;
+    background:#25D366;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    font-size:34px;
+    z-index:99999;
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+    transition:0.3s;
 }
 
 .whatsapp-button:hover{
-transform:scale(1.1);
+    transform:scale(1.1);
 }
