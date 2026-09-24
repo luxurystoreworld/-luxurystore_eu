@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://luxurystoreworld.github.io/-luxurystore_eu/sitemap.xml
