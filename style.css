@@ -131,12 +131,11 @@ display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
-min-height:85vh;
+min-height:100vh;
 padding:120px 8%;
-overflow:hidden;
 
 background:
-linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
 url("images/hero.jpg");
 
 background-size:cover;
