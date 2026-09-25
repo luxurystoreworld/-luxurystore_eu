@@ -39,9 +39,11 @@ border-bottom:1px solid rgba(212,175,55,.2);
 }
 
 .logo{
-font-size:32px;
+font-family:"Cinzel",serif;
+font-size:26px;
 font-weight:700;
-letter-spacing:3px;
+line-height:1.2;
+letter-spacing:2px;
 color:#d4af37;
 user-select:none;
 }
@@ -149,10 +151,13 @@ max-width:900px;
 }
 
 .hero h1{
-font-size:64px;
-letter-spacing:3px;
+font-family:"Cinzel",serif;
+font-size:72px;
+letter-spacing:4px;
+line-height:1.1;
 margin-bottom:20px;
 color:#fff;
+text-shadow:0 0 20px rgba(212,175,55,.3);
 }
 
 .hero p{
