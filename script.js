@@ -123,7 +123,7 @@ set("supportText",translations[lang].supportText);
 set("productsTitle", translations[lang].productsTitle);
 set("productsText", translations[lang].productsText);
 
-for(let i = 1; i <= 18; i++){
+for(let i = 1; i <= 23; i++)
 
 set("p"+i, translations[lang]["p"+i]);
 
@@ -252,7 +252,7 @@ if (cookieBanner && acceptCookies) {
 
 const favoritesContainer = document.getElementById("favoritesContainer"); 
 const perfumeImages = [
-    "hero.jpg",
+    "luxury-background.png",
     "chance.jpg",
     "coco-mademoiselle.jpg",
     "donna-born-in-roma.jpg",
@@ -270,6 +270,11 @@ const perfumeImages = [
     "scandal.jpg",
     "si.jpg",
     "black-opium.jpg"
+    "my-way.jpg",
+"libre-intense.jpg",
+"coco-noir.jpg",
+"hypnotic-poison.jpg",
+"black-orchid.jpg"
 ];
 if (favoritesContainer) {
 
