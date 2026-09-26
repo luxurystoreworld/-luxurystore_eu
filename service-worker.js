@@ -10,7 +10,6 @@ const urlsToCache = [
   "./script.js",
   "./languages.js",
   "./manifest.json",
-
 "./images/luxury-background.png",
   "./images/chance.jpg",
   "./images/coco-mademoiselle.jpg",
