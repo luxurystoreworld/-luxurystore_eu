@@ -58,7 +58,12 @@ p15:"Занона",
 p16:"Занона",
 p17:"Занона",
 p18:"Занона",
-
+p19:"Giorgio Armani My Way — атри гулдор ва нозук барои занони муосир.",
+p20:"YSL Libre Intense — атри гарму ҷолиб бо бӯи лаванда ва ванил.",
+p21:"Chanel Coco Noir — атри шево ва ҷолиб барои шабҳои махсус.",
+p22:"Dior Hypnotic Poison — атри ширин ва дилрабо бо бӯи ванил.",
+p23:"Tom Ford Black Orchid — атри боҳашамат бо бӯи орхидеяи сиёҳ ва ҳезум.",
+  
 buy:"Пурсидани нарх",
 privacyTitle:"Сиёсати махфият",
 privacyText:"Махфияти шумо барои мо муҳим аст.",
@@ -154,7 +159,11 @@ p15:"Женский",
 p16:"Женский",
 p17:"Женский",
 p18:"Женский",
-
+p19:"Giorgio Armani My Way — нежный цветочный аромат для современных женщин.",
+p20:"YSL Libre Intense — насыщенный аромат с нотами лаванды и ванили.",
+p21:"Chanel Coco Noir — элегантный и чувственный аромат для особых вечеров.",
+p22:"Dior Hypnotic Poison — сладкий и соблазнительный аромат с ванилью.",
+p23:"Tom Ford Black Orchid — роскошный аромат с чёрной орхидеей и древесными нотами.",  
 buy:"Узнать цену"
 
 },
@@ -234,7 +243,11 @@ p15:"Women",
 p16:"Women",
 p17:"Women",
 p18:"Women",
-
+p19:"Giorgio Armani My Way — a delicate floral fragrance for modern women.",
+p20:"YSL Libre Intense — a rich fragrance with lavender and vanilla notes.",
+p21:"Chanel Coco Noir — an elegant and sensual fragrance for special evenings.",
+p22:"Dior Hypnotic Poison — a sweet and captivating fragrance with vanilla.",
+p23:"Tom Ford Black Orchid — a luxurious fragrance with black orchid and woody notes.",
 buy:"Ask Price"
 
 },
@@ -314,7 +327,11 @@ p15:"Damen",
 p16:"Damen",
 p17:"Damen",
 p18:"Damen",
-
+p19:"Giorgio Armani My Way – ein zarter Blumenduft für moderne Frauen.",
+p20:"YSL Libre Intense – ein intensiver Duft mit Lavendel- und Vanillenoten.",
+p21:"Chanel Coco Noir – ein eleganter und sinnlicher Duft für besondere Abende.",
+p22:"Dior Hypnotic Poison – ein süßer und verführerischer Duft mit Vanille.",
+p23:"Tom Ford Black Orchid – ein luxuriöser Duft mit schwarzer Orchidee und holzigen Noten.",
 buy:"Preis anfragen"
 
 }
