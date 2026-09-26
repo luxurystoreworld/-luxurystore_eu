@@ -11,7 +11,7 @@ const urlsToCache = [
   "./languages.js",
   "./manifest.json",
 
-  "./images/hero.jpg",
+"./images/luxury-background.png",
   "./images/chance.jpg",
   "./images/coco-mademoiselle.jpg",
   "./images/donna-born-in-roma.jpg",
